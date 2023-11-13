@@ -4,8 +4,8 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: false # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Alex Segeyev
@@ -16,7 +16,7 @@ sidebar:
     email: alex.sergeyev@gmail.com
     phone: +46707147896
     timezone: Europe/Stockholm
-    #citizenship: Swedish
+    citizenship: Swedish
     #website: blog.mooracle.io #do not add http://
     linkedin: alexsergeyev
     github: alexsergeyev
@@ -182,7 +182,7 @@ projects:
     title: Projects
     assignments:
       - title: Mooracle
-        link: "mooracle.io"
+        link: "https://mooracle.io"
         tagline: "MooRacle revolutionizes dairy farming by combining advanced IoT technology and immersive BovineVR experiences to boost cow happiness, well-being, and milk production"
 
       - title: Terraform Education
