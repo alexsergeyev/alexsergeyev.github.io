@@ -1,224 +1,229 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alex Segeyev
-    tagline: Technical Lead/CTO
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Alex Segeyev
+  tagline: Technical Lead/CTO
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: alex.sergeyev@gmail.com
-    phone: +46707147896
-    timezone: Europe/Stockholm
-    citizenship: Swedish
-    #website: blog.mooracle.io #do not add http://
-    linkedin: alexsergeyev
-    github: alexsergeyev
-    #pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: alex.sergeyev@gmail.com
+  phone: +46707147896
+  timezone: Europe/Stockholm
+  citizenship: Swedish
+  #website: blog.mooracle.io #do not add http://
+  linkedin: alexsergeyev
+  github: alexsergeyev
+  #pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level:  Full professional proficiency
-        - idiom: Swedish
-          level:  Limited working proficiency
-        - idiom: Belorussian
-          level: Native
-        - idiom: Russian
-          level: Native
-    
-    # interests:
-    #   title: Interests
-    #   info:
-    #     - item: Skiing
-    #     - item: Sailing
-    #     - item: Cooking
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Full professional proficiency
+      - idiom: Swedish
+        level: Limited working proficiency
+
+  # interests:
+  #   title: Interests
+  #   info:
+  #     - item: Skiing
+  #     - item: Sailing
+  #     - item: Cooking
 
 career-profile:
-    title: About me
-    summary: |
-      As a seasoned Senior Technical Lead, my experience spans from driving IoT platform development at Netronix to providing high-level technical consultancy at HiQ. I have excelled in designing innovative solutions, managing complex projects, and implementing cutting-edge technologies.
-      At Netronix, I scaled the R&D team and developed a robust IoT platform, demonstrating my leadership and technical expertise. Transitioning to HiQ, I strengthened my consultancy skills through thorough IT evaluations, risk assessments, and implementing best industry practices in Technical Due Diligence (TDD).
-      Apart from my leadership roles, I have extensive programming knowledge, a deep understanding of SQL and NoSQL databases, and infrastructure automation skills. I use these skills to guide development teams, driving innovation and operational excellence.
-      My career commitment is leveraging technology and strategic planning for organizational growth.
+  title: About me
+  summary: |
+    As a seasoned Senior Technical Lead, I have a proven track record from driving IoT platform development at Netronix to delivering high-level technical consultancy at HiQ. At Netronix, I scaled the R&D team and built a robust IoT platform, showcasing my leadership and technical prowess. Transitioning to HiQ, I refined my expertise through comprehensive IT evaluations, risk assessments, and best practices in Technical Due Diligence (TDD). Now, as Technical Lead/PO Cloud Foundation at Postnord, I decentralize cloud architectures, drive a FinOps culture, streamline onboarding, and enforce robust security and compliance measures. Leveraging my broad programming expertise, deep understanding of SQL and NoSQL databases, and commitment to infrastructure automation, I empower development teams to drive innovation and achieve operational excellence.
 education:
-    title: Education
-    info:
-      - degree: Bachelor of Science in Computer Science
-        university: Belorussian State University of Informatics and Radioelectronics
-        time: 2002-2007
+  title: Education
+  info:
+    - degree: Bachelor of Science in Computer Science
+      university: Belorussian State University of Informatics and Radioelectronics
+      time: 2002-2007
 experiences:
-    title: Experiences
-    info:
-      - role: Senior Technical Lead
-        time: Sep 2022 - Present
-        company: HiQ, Stockholm
-        details: |
-          As the Senior Technical Lead at HiQ, my primary duties include conducting Technical Due Diligence (TDD) projects involving comprehensive IT risk evaluations and operational analysis. In this role, I:
-            - Gather and analyze extensive IT documentation
-            - Conduct interviews with key IT personnel
-            - Develop recommendations for enhancing IT governance, infrastructure, and technical capabilities
-            - Perform detailed architectural, tech stack, and DevOps analyses
-            - Create analytical TDD reports with strategic improvement suggestions
-            - Keep our TDD up-to-date by identifying and integrating best industry practices
+  title: Experiences
+  info:
+    - role: Technical Lead/PO Cloud Foundation
+      time: Nov 2024 - Present
+      company: Postnord
+      details: |
+        As the Technical Lead/PO Cloud Foundation at Postnord, I drive strategy and operational excellence for our cloud infrastructure, leveraging AWS and Azure platforms. My responsibilities include:
+          - Optimizing cloud architecture to decentralize processes and enhance DevOps culture among teams.
+          - Building a FinOps culture and leading cost optimization sessions with teams.
+          - Streamlining and automating onboarding processes to accelerate the integration of new teams and projects.
+          - Collaborating with cross-functional teams to align cloud strategies with business objectives.
+          - Establishing robust security guardrails and continuously enhancing security and compliance across cloud operations.
 
-      - role: "Agreement Management Upgrade"
-        company: 'HiQ, Client: SciFree AB'
-        time: May 2023 - Aug 2023
-        details: |
-          I led the development team to create a new Agreement Management platform version. This upgrade resulted in a tenfold reduction in Azure costs and significantly enhanced performance, reducing response times from 800ms to 40ms.
-          - Tech Stack: MongoDB Atlas Search, Ruby, ReactJS, Azure Cloud Services, Azure Static Websites, GitHub Actions, Terraform, Auth0
-      - role: Platform Assessment & Development Plan (Second Opinion)
-        company: 'HiQ, Client: SciFree AB'
-        time: Mar 2023 - Apr 2023
-        details: | 
-          Conducted a comprehensive review of the client's platform for scientific research publications and publisher agreement management. Developed a future-focused plan that included a new architectural design, necessary resources, and a timeline to unlock the platform's potential, all to be achieved within three months.
-          - Tech Stack: Azure SQL, Azure Cloud Services, MDriven low-code platform
-      - role: Security Enhancement
-        company: 'HiQ, Client: Confidential'
-        time: Mar 2023 - July 2023
-        details: |
-          I completed a comprehensive security assessment of the client's platform, examining key areas such as architecture, infrastructure, and code. Identified and mitigated potential security risks by enhancing platform security through IaaC (Terraform) and incorporating security best practices into CI/CD pipelines.
-          - Tech Stack: Google Cloud Platform, Cloud SQL, Cloud Run, Cloud Build, Cloudflare, NodeJS, Prisma, GrapthQL
-      - role: Second Opinion
-        company: 'HiQ, Client: Confidential'
-        time: Feb 2023 - Mar 2023
-        details: |
-          Design an architecture for an IoT platform merging two different IoT stacks into a single platform. Evaluate code and infrastructure to identify potential bottlenecks and provide a development plan for the new team.
-          - Tech Stack: Kubernetes, Rancher, MongoDB, Node.js, Apache Kafka, API Gateway, IoT Architecture, Redis, Microservice Architecture, Event Driven Architecture
-      - role:  Technical Due Diligence Review
-        company: 'HiQ, Client: Confidential'
-        time: Dec 2022 - Jan 2023
-        details: |
-          Perform Technical Due Diligence for an iPaaS, thoroughly reviewing the platform's architecture, scalability, technology stack, infrastructure, and security.
-          - Tech Stack: Azure, Azure Functions, Azure Service Bus, Azure SQL
-      - role: AWS Cost optimization (Second Opinion)
-        company: 'HiQ, Client: Confidential'
-        time: Oct 2022 - Dec 2022
-        details: |
-          Reduce AWS expenses by enhancing the observability of the client's IoT platform. Reviewed the AWS infrastructure and reconstructed it using Terraform. During this process, I discovered several issues and implemented the application code and infrastructure fixes. As a result, the customer was able to reduce their monthly AWS expenses by $12,000.
-          - Tech Stack: AWS Kinesis Firehouse, AWS Redshift, AWS Glue, AWS Relational Database Service (RDS), AWS EKS, AWS Cloudwatch, Terraform
-      - role: Technical Lead
-        company: Netronix, US (remote)
-        time: Nov 2014 - Aug 2022
-        details: |
-          During these years a Netronix, I grow up RnD team from 3 to 10 developers. Build architecture for next-generation IoT platform and infrastructure and organize development process and communication across multiple groups.            
-          * Lead IoT platform development to make it performant, scalable, and secure. 
-          * Manage project targets and validate processes for multiple teams.
-          * Roll out CI/CD pipeline to all projects across all teams. (Github Actions)
-          * Design REST, GraphQL, and Websocket Streaming APIs for IoT Platform.
-          * Created a time-series processing engine with support for aggregation, live data conversion, and multiple storages (Redis, MongoDB, PostgreSQL). 
-          * Developed a new protobuf protocol based transport protocol for communication between devices and processing engine.
-          * Build Lua SDK for controllers that allow aggregation of data or remote management for devices using different protocols (UMB, Modbus, SDI12, etc.)
-          * Add support for over 200 different sensors using Lua SDK
-          * Migrate all infrastructure to AWS and fully automate the deployment process with Terraform and Kubernetes/EKS.
-          * Split application to microservices (Ruby/Elixir) using NATS.io as a messaging broker to support peak processing of 1 million measurements per second.
-          * Design calibration process for (CO2/VOC/Temperature/Humidity) sensors and build a tool to calibrate sensors. (Python/ML)
+    - role: Senior Technical Lead
+      time: Sep 2022 - Nov 2024
+      company: HiQ, Stockholm
+      details: |
+        As the Senior Technical Lead at HiQ, my primary duties include conducting Technical Due Diligence (TDD) projects involving comprehensive IT risk evaluations and operational analysis. In this role, I:
+          - Gather and analyze extensive IT documentation
+          - Conduct interviews with key IT personnel
+          - Develop recommendations for enhancing IT governance, infrastructure, and technical capabilities
+          - Perform detailed architectural, tech stack, and DevOps analyses
+          - Create analytical TDD reports with strategic improvement suggestions
+          - Keep our TDD up-to-date by identifying and integrating best industry practices
 
-          Tech Stack: Ruby, Elixir, OpenAPI Specification, GraphQL, Event Driven Architecture, Event Source, Redis, PostgreSQL, MongoDB, Docker, Terraform, Kubernetes, Helm, AWS API Gateway, AWS Elastic Compute Cloud (EC2), AWS Web Application Firewall (WAF), AWS CloudFront, CI/CD, TDD, Python, Pandas, SciPy, TensorFlow, LUA, Google Protocol Buffers (Protobuf), WebSocket, MQTT
+    - role: "Agreement Management Upgrade"
+      company: "HiQ, Client: SciFree AB"
+      time: May 2023 - Aug 2023
+      details: |
+        I led the development team to create a new Agreement Management platform version. This upgrade resulted in a tenfold reduction in Azure costs and significantly enhanced performance, reducing response times from 800ms to 40ms.
+        - Tech Stack: MongoDB Atlas Search, Ruby, ReactJS, Azure Cloud Services, Azure Static Websites, GitHub Actions, Terraform, Auth0
+    - role: Platform Assessment & Development Plan (Second Opinion)
+      company: "HiQ, Client: SciFree AB"
+      time: Mar 2023 - Apr 2023
+      details: |
+        Conducted a comprehensive review of the client's platform for scientific research publications and publisher agreement management. Developed a future-focused plan that included a new architectural design, necessary resources, and a timeline to unlock the platform's potential, all to be achieved within three months.
+        - Tech Stack: Azure SQL, Azure Cloud Services, MDriven low-code platform
+    - role: Security Enhancement
+      company: "HiQ, Client: Confidential"
+      time: Mar 2023 - July 2023
+      details: |
+        I completed a comprehensive security assessment of the client's platform, examining key areas such as architecture, infrastructure, and code. Identified and mitigated potential security risks by enhancing platform security through IaaC (Terraform) and incorporating security best practices into CI/CD pipelines.
+        - Tech Stack: Google Cloud Platform, Cloud SQL, Cloud Run, Cloud Build, Cloudflare, NodeJS, Prisma, GrapthQL
+    - role: Second Opinion
+      company: "HiQ, Client: Confidential"
+      time: Feb 2023 - Mar 2023
+      details: |
+        Designed an architecture for an IoT platform merging two different IoT stacks into a single platform. Evaluated code and infrastructure to identify potential bottlenecks and provided a development plan for the new team.
+        - Tech Stack: Kubernetes, Rancher, MongoDB, Node.js, Apache Kafka, API Gateway, IoT Architecture, Redis, Microservice Architecture, Event Driven Architecture
+    - role: Technical Due Diligence Review
+      company: "HiQ, Client: Confidential"
+      time: Dec 2022 - Jan 2023
+      details: |
+        Performed Technical Due Diligence for an iPaaS, thoroughly reviewing the platform's architecture, scalability, technology stack, infrastructure, and security.
+        - Tech Stack: Azure, Azure Functions, Azure Service Bus, Azure SQL
+    - role: AWS Cost optimization (Second Opinion)
+      company: "HiQ, Client: Confidential"
+      time: Oct 2022 - Dec 2022
+      details: |
+        Reduced AWS expenses by enhancing the observability of the client's IoT platform. Reviewed the AWS infrastructure and reconstructed it using Terraform. Discovered several issues and implemented application code and infrastructure fixes, reducing monthly AWS expenses by $12,000.
+        - Tech Stack: AWS Kinesis Firehouse, AWS Redshift, AWS Glue, AWS Relational Database Service (RDS), AWS EKS, AWS Cloudwatch, Terraform
+    - role: Technical Lead
+      company: Netronix, US (remote)
+      time: Nov 2014 - Aug 2022
+      details: |
+        At Netronix, I grew the R&D team from 3 to 10 developers, built the architecture for a next-generation IoT platform and infrastructure, and organized development processes and cross-team communication.
+        * Led IoT platform development to ensure performance, scalability, and security.
+        * Managed project targets and validated processes for multiple teams.
+        * Rolled out CI/CD pipelines across projects using GitHub Actions.
+        * Designed REST, GraphQL, and WebSocket Streaming APIs for the IoT platform.
+        * Created a time-series processing engine with support for aggregation, live data conversion, and multiple storages (Redis, MongoDB, PostgreSQL).
+        * Developed a new protobuf protocol-based transport mechanism for device communication.
+        * Built a Lua SDK for controllers to enable data aggregation and remote device management across diverse protocols (UMB, Modbus, SDI12, etc.).
+        * Migrated infrastructure to AWS and automated deployments with Terraform and Kubernetes/EKS.
+        * Transitioned the application to microservices (Ruby/Elixir) using NATS.io for high-throughput messaging.
+        * Designed sensor calibration processes and built corresponding tools (Python/ML).
 
-      - role: Senior Software Engineer
-        time: Aug 2013 - Nov 2014
-        company: Mynewsdesk, Stockholm
-        details: |
-          As a Senior Software Engineer, I was responsible for spearheading several key initiatives, including:
-          * Developed a novel social media monitoring tool capable of handling about 1000 requests per second from a single node, significantly enhancing scalability and load distribution.
-          * Led successfully migrating a Ruby-on-Rails monolithic application from an on-premise solution to the Heroku cloud platform, ensuring a seamless transition and business continuity.
+        Tech Stack: Ruby, Elixir, OpenAPI Specification, GraphQL, Event Driven Architecture, Event Source, Redis, PostgreSQL, MongoDB, Docker, Terraform, Kubernetes, Helm, AWS API Gateway, AWS Elastic Compute Cloud (EC2), AWS Web Application Firewall (WAF), AWS CloudFront, CI/CD, TDD, Python, Pandas, SciPy, TensorFlow, LUA, Google Protocol Buffers (Protobuf), WebSocket, MQTT
+    - role: Senior Software Engineer
+      time: Aug 2013 - Nov 2014
+      company: Mynewsdesk, Stockholm
+      details: |
+        As a Senior Software Engineer, I led initiatives including:
+        * Developing a novel social media monitoring tool capable of handling around 1000 requests per second.
+        * Successfully migrating a Ruby-on-Rails monolithic application from an on-premise solution to the Heroku cloud platform, ensuring business continuity.
 
-          Tech Stack: Ruby on Rails, REST, Elasticsearch, Apache Solr, Heroku, Event Driven Architecture, Redis, JavaScript, Nginx, Linux, PostgreSQL
-        
-      - role: Senior Software Engineer
-        time: Nov 2011 - Aug 2013
-        company: Netronix, US (remote)
-        details: |
-          I have developed an IoT platform for monitoring and controlling multiple 3rd party sensors from web applications. It consists of the following micro-services:
-          * device server that communicates with devices over 2G/3G network
-          * processing engine to convert data from internal sensor protocols to a unified format
-          * live and historical reporting backend
-          * alerting engine to send alerts to users via email/SMS (based on user-defined conditions)
-          * web application to visualize and control devices
-          
-          It supports about 50 different 3rd party sensors using Modbus, SDI12, UMB, and vendor-specific protocols with the ability to write extensions for any other sensors.
-          Tech Stack: Ruby, JavaScript, Ruby on Rails, MySQL, AWS, AWS API Gateway, Redis, AWS S3, Nginx, Rest API
-      
-      - role: Software Engineer
-        time: Apr 2011 - Oct 2011
-        company: Vizrt, Stockholm
-        details: |
-          I was responsible for debugging, refactoring, and optimizing backend services to support and improve the Media Archive Management platform used for many TV channels worldwide (TV6, SVT in Sweden).
-          Tech Stack:  Perl, DB2, Oracle, SVN, Linux
-  
-      - role: Consult
-        company: Freelance
-        time: Apr 2010 - Apr 2011
-        details: |
-          * Senior Developer, Qubator AB (Stockholm) - developed mobile version of sportprofile.com
-          * Senior Developer/Project Lead, Lawline HB. Website for Swedish law-community lawline.se
+        Tech Stack: Ruby on Rails, REST, Elasticsearch, Apache Solr, Heroku, Event Driven Architecture, Redis, JavaScript, Nginx, Linux, PostgreSQL
+    - role: Senior Software Engineer
+      time: Nov 2011 - Aug 2013
+      company: Netronix, US (remote)
+      details: |
+        Developed an IoT platform for monitoring and controlling multiple 3rd party sensors through web applications. The platform included:
+        * A device server communicating over 2G/3G networks.
+        * A processing engine converting sensor data to a unified format.
+        * A live and historical reporting backend.
+        * An alerting engine sending notifications via email/SMS based on user-defined conditions.
+        * A web application for device visualization and control.
 
-      - role: Senior Developer
-        company: Playfon Sweden AB
-        time: Jan 2008 - Apr 2010
-        details: |
-          I have created a platform to analyze traffic and content sales for mobile phones. This platform was used on wap sites of Nokia and SonyEricsson in Sweden, Latvia, Lithuania, Estonia, and Russia and detects new sales points and marketing campaigns. Since its production release in June 2008, it has processed about 2 million daily requests.
+        Supported about 50 different 3rd party sensors with protocols such as Modbus, SDI12, UMB, and vendor-specific formats.
+        Tech Stack: Ruby, JavaScript, Ruby on Rails, MySQL, AWS, AWS API Gateway, Redis, AWS S3, Nginx, Rest API
+    - role: Software Engineer
+      time: Apr 2011 - Oct 2011
+      company: Vizrt, Stockholm
+      details: |
+        Debugged, refactored, and optimized backend services for the Media Archive Management platform used by multiple TV channels worldwide (TV6, SVT in Sweden).
+        Tech Stack: Perl, DB2, Oracle, SVN, Linux
+    - role: Consult
+      company: Freelance
+      time: Apr 2010 - Apr 2011
+      details: |
+        * Senior Developer, Qubator AB (Stockholm) – developed a mobile version of sportprofile.com
+        * Senior Developer/Project Lead, Lawline HB – built a website for the Swedish law-community at lawline.se
+    - role: Senior Developer
+      company: Playfon Sweden AB
+      time: Jan 2008 - Apr 2010
+      details: |
+        Created a platform to analyze traffic and content sales for mobile phones. Utilized on the WAP sites of Nokia and SonyEricsson in multiple countries, the platform processed around 2 million daily requests.
+        Tech Stack: PHP, SQL, DRBD, MySQL, Git
+    - role: Developer
+      company: Playfon Sweden AB
+      time: Apr 2005 - Dec 2007
+      details: |
+        * Developed and maintained a high-availability hosting platform for web/WAP applications using Debian GNU/Linux, heartbeat, OpenVZ, nginx/apache2, MySQL, DRB
+        * Designed and developed a video streaming platform for mobile phones (PHP/Perl, Darwin Streaming Server, VLC, ffmpeg)
+        * Contributed to several WAP applications (PHP/MySQL) and the design of a remote WAP billing platform.
 
-          Tech Stack: PHP, SQL, DRBD, MySQL, Git
+certifications:
+  title: Certifications
+  list:
+    - name: AWS Certified Solutions Architect – Associate
+      start: 2024
+      end: 2027
+      organization: AWS
+      credentialid: f45d43fbbf4a4be28070e976f6d1690c
+      credentialurl: https://www.credly.com/badges/9b0b3dea-b23f-4e17-bc03-98a2523dd2e7/linked_in_profile
 
-      - role: Developer
-        company: Playfon Sweden AB
-        time: Apr 2005 - Dec 2007
-        details: |
-          * Development and maintenance of high-availability hosting platform for web/wap applications with Debian GNU\Linux, heartbeat, OpenVZ, nginx/apache2, MySQL, DRB    
-          * Design and development of video streaming platform for mobile phones. (PHP/Perl, Darwin Streaming Server, VLC, ffmpeg)
-          * I am participating in developing several wap-applications (PHP/MySQL) and designing a remote wap-billing platform.
-        
 projects:
-    title: Projects
-    assignments:
-      - title: Mooracle
-        link: "https://mooracle.io"
-        tagline: "MooRacle revolutionizes dairy farming by combining advanced IoT technology and immersive BovineVR experiences to boost cow happiness, well-being, and milk production"
+  title: Projects
+  assignments:
+    - title: Mooracle
+      link: "https://mooracle.io"
+      tagline: "MooRacle revolutionizes dairy farming by combining advanced IoT technology and immersive BovineVR experiences to boost cow happiness, well-being, and milk production"
 
-      - title: Terraform Education
-        link: "https://github.com/alexsergeyev/hiq-static"
-        tagline: "A quick step-by-step guide to getting started with Terraform"
+    - title: Terraform Education
+      link: "https://github.com/alexsergeyev/hiq-static"
+      tagline: "A quick step-by-step guide to getting started with Terraform"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Project Management
-        level: 98%
+  toolset:
+    - name: Project Management
+      level: 98%
 
-      - name: Software Architecture
-        level: 98%
-    
-      - name: Infrastructure as code
-        level: 98%
+    - name: Software Architecture
+      level: 98%
 
-      - name: Security & Compliance
-        level: 95%
-      
-      - name: AWS Cloud
-        level: 90%
+    - name: Infrastructure as code
+      level: 98%
 
-      - name: Ruby
-        level: 95%
-      
-      - name: NoSQL and SQL Databases
-        level: 95%
+    - name: Security & Compliance
+      level: 95%
 
-      - name: Elixir
-        level: 80%
+    - name: AWS Cloud
+      level: 90%
 
-      - name: Kubernetes
-        level: 90%
+    - name: Azure Cloud
+      level: 70%
 
-      - name: Python & Machine Learning
-        level: 60%
+    - name: Ruby
+      level: 95%
+
+    - name: NoSQL and SQL Databases
+      level: 95%
+
+    - name: Elixir
+      level: 80%
+
+    - name: Kubernetes
+      level: 90%
+
+    - name: Python & Machine Learning
+      level: 60%
