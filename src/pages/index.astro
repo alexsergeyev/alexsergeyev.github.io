@@ -3,7 +3,7 @@ import { marked } from 'marked';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const resumePath = path.join(process.cwd(), 'resume.md');
+const resumePath = path.join(process.cwd(), 'README.md');
 const resumeContent = fs.readFileSync(resumePath, 'utf-8');
 
 marked.use({
