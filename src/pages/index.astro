@@ -1,0 +1,77 @@
+---
+import { marked } from 'marked';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const resumePath = path.join(process.cwd(), 'resume.md');
+const resumeContent = fs.readFileSync(resumePath, 'utf-8');
+
+marked.use({
+  renderer: {
+    heading({ tokens, depth }) {
+      const text = this.parser.parseInline(tokens);
+      const slug = text.toLowerCase().replace(/<[^>]*>/g, '').replace(/[^\w]+/g, '-').replace(/-+$/, '');
+      return `<h${depth} id="${slug}">${text}</h${depth}>\n`;
+    }
+  }
+});
+
+const htmlContent = marked.parse(resumeContent);
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Sergeyev - Senior Technical Lead | Startup CTO</title>
+  <meta name="description" content="Senior Technical Lead with 15+ years experience in engineering leadership, Technical Due Diligence, architecture modernization, IoT, and IaC. AWS, Azure, Kubernetes, AI/ML." />
+  <meta name="keywords" content="Technical Lead, CTO, Technical Due Diligence, AWS, Azure, Kubernetes, IoT, IaC, Terraform, Architecture, Engineering Manager, Stockholm" />
+  <meta name="author" content="Alex Sergeyev" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#222222" />
+  <link rel="canonical" href="https://alexsergeyev.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Alex Sergeyev - Senior Technical Lead | Startup CTO" />
+  <meta property="og:description" content="Senior Technical Lead with 15+ years in engineering leadership, Technical Due Diligence, and architecture modernization." />
+  <meta property="og:url" content="https://alexsergeyev.github.io/" />
+  <meta property="og:image" content="https://alexsergeyev.github.io/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="profile:first_name" content="Alex" />
+  <meta property="profile:last_name" content="Sergeyev" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Alex Sergeyev - Senior Technical Lead | Startup CTO" />
+  <meta name="twitter:description" content="Senior Technical Lead with 15+ years in engineering leadership and architecture modernization." />
+  <meta name="twitter:image" content="https://alexsergeyev.github.io/og-image.png" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Alex Sergeyev",
+    "jobTitle": "Senior Technical Lead",
+    "url": "https://alexsergeyev.github.io/",
+    "sameAs": ["https://linkedin.com/in/alexsergeyev", "https://github.com/alexsergeyev"],
+    "address": {"@type": "PostalAddress", "addressLocality": "Stockholm", "addressCountry": "Sweden"},
+    "knowsAbout": ["Technical Leadership", "AWS", "Azure", "Kubernetes", "Technical Due Diligence", "Architecture", "IoT", "IaC", "Terraform", "AI/ML"]
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="/styles/resume.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <main id="main" role="main" aria-label="Resume content">
+    <article class="resume" set:html={htmlContent} />
+  </main>
+</body>
+</html>
