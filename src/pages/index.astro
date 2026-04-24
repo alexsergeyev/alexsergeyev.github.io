@@ -1,5 +1,6 @@
 ---
 import { marked } from 'marked';
+import QRCode from 'qrcode';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -17,6 +18,13 @@ marked.use({
 });
 
 const htmlContent = marked.parse(resumeContent);
+
+const qrSvg = await QRCode.toString('https://linkedin.com/in/alexsergeyev', {
+  type: 'svg',
+  margin: 0,
+  width: 80,
+  color: { dark: '#1a1a1a', light: '#ffffff' },
+});
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -72,6 +80,10 @@ const htmlContent = marked.parse(resumeContent);
   <a href="#main" class="skip-link">Skip to main content</a>
   <main id="main" role="main" aria-label="Resume content">
     <article class="resume" set:html={htmlContent} />
+    <aside class="qr-print" aria-hidden="true">
+      <Fragment set:html={qrSvg} />
+      <span>LinkedIn</span>
+    </aside>
   </main>
 </body>
 </html>

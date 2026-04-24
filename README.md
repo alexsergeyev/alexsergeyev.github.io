@@ -22,6 +22,7 @@ Senior Technical Lead with 15+ years leading engineering teams and delivering co
 
 Leading Cloud Platform strategy for one of the Nordic region's largest logistics companies.
 
+- Lead foundation team (6 engineers) building core cloud platform capabilities.
 - Define cloud strategy and lead budget planning as member of Architecture Board.
 - Build developer self-service platform (Backstage) for 100+ engineering teams.
 - Design and build custom FinOps solution for internal cost distribution, achieving 20-30% annual savings.
@@ -34,7 +35,7 @@ Leading Cloud Platform strategy for one of the Nordic region's largest logistics
 
 - Consulting: technical due diligence and fractional CTO.
 - Product: [Hamstiq](https://hamstiq.com) — AI-powered collection management (LangChain, RAG).
-- Product: IoT analytics and reporting tool for industrial sensor data.
+- Product: [Copilot Budget](https://marketplace.visualstudio.com/items?itemName=Mooracle.copilot-budget) — VS Code extension for AI cost tracking per commit.
 
 
 ### Senior Technical Lead
@@ -82,7 +83,8 @@ Built social media monitoring tool (1,000+ req/sec) using Ruby on Rails and Elas
 ## Publications
 
 - [Building IIoT That Lasts: 10 Lessons from a Decade in the Field](https://mooracle.io/blog/building-iiot-that-lasts?utm_source=cv)
-- [The Three Person Constraint: Why Limiting Your Team Forces Better Products](https://medium.com/@alexsergeyev/the-three-person-constraint-why-limiting-your-team-forces-better-products-8a01a4366dbc?utm_source=cv)
+- [The Three Person Constraint: Why Limiting Your Team Forces Better Products](https://mooracle.io/blog/the-three-person-constraint?utm_source=cv)
+- [FinOps for AI: Track What Your Code Actually Costs Per Commit](https://mooracle.io/blog/finops-ai-planning-poker?utm_source=cv)
 
 ## Education
 
